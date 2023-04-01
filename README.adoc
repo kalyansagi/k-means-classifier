@@ -1,0 +1,35 @@
+= What does this application do?
+This is a Python implementation for implementing K-means classifier as a learning exercise.
+
+== What is the problem statement?
+Given a toy dataset with the following code:
+```
+import matplotlib.pyplot as plt
+import numpy as np
+from matplotlib import style
+X=np.array([[2, 4],
+            [1.7, 2.8],
+            [7, 8],
+            [8.6, 8],
+            [3.4, 1.5],
+            [9,11]])
+plt.scatter(X[:,0], X[:,1], s=150)
+plt.show()
+```
+
+The ask is to build a K-means while trying to classify the toy dataset into 2 clusters and output the classification results.
+Note: Try to use seaborn/matplotlib library to visualize the final classification results.
+
+
+=== Technical Details
+- Python Documentation: link:https://www.python.org/[Python]
+- Version control: git
+- IDE: Pycharm (Pure Python Project with venv)
+
+
+== Developer Guide to run the code locally
+==== `git clone https://github.com/kalyansagi/k-means-classifier.git`
+
+==== `cd /k-means-classifier`
+
+==== `git checkout master`
