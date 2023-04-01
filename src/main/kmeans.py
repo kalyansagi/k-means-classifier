@@ -55,7 +55,7 @@ def updateCentroid(x, clusters, K):
 # 2-d kmeans
 def kmeans(x, K):
     """
-    Function to perform 2D k-means clustering on a given dataset x with K clusters.
+    Function to perform 2D k-means clustering on a given dataset x with K clusters. Iterate the process 10 cycles.
     :param x: 2D array. i.e., dataset
     :param K: Cluster
     """
